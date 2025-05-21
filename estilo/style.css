@@ -1,0 +1,99 @@
+
+@charset"UTF-8";
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Kanchenjunga:wght@400;500;600;700&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Loopet:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Kanchenjunga:wght@400;500;600;700&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Playwrite+DK+Loopet:wght@100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        *{
+            margin: 0px;
+        }
+
+        body{
+        
+            
+        }
+        :root{
+            --fonte1:"Passion One", sans-serif;
+            --fonte2:Verdana, Geneva, Tahoma, sans-serif;
+            --fonte3:"Sriracha", cursive;
+        }
+        header{
+            background-color: black;
+            
+            text-align: center;
+        
+            
+         }
+        
+       
+         header h1{
+            color: white;
+            font-family: var(--fonte1);
+            padding-top: 50px;
+            font-variant: small-caps;
+            font-size: 10vh;
+            
+            
+         }
+         header p{
+            color: white;
+            padding-bottom: 50px;
+            font-family: var(--fonte2);
+            font-size: 15px;
+         }
+         a{
+            text-decoration: none;
+            color: white;
+         }
+         a:hover {
+            text-decoration: underline;
+            
+         }
+         section{
+            
+            text-align: inherit;
+             font-family: var(--fonte3);
+             line-height: 2em;
+             padding: 10vh;
+             font-size: 25px;
+             
+         }
+         #imagem1{
+            background-image: url(../imagens/background001.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+
+         }
+         #imagem1 p {
+            background-color: #0216017c;
+            color: white;
+            width: 350px;
+         }
+         
+         #imagem2{
+            background-image: url(../imagens/background002.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+            background-color: aqua;
+
+         }
+         #imagem2 p {
+            background-color: rgba(245, 222, 179, 0.322);
+            color: white;
+            width: 350px;
+         }
+       
+         article{
+            width: 500px;
+         }
+         footer{
+            text-align: center;
+            font-weight: bolder;
+            background-color: black;
+            color: white;
+            padding: 1px;
+         }
